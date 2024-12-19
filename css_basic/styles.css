@@ -13,7 +13,7 @@ main{
 article{
   flex: 2;
   overflow-y: auto;
-  background-color: #f0f8ff; /* Light background color */
+  background-color: navy; /* Light background color */
   color: #333;              /* Dark text for contrast */
   border-radius: 8px;       /* Add rounded corners */
   padding: 2rem;            /* Add spacing inside */
