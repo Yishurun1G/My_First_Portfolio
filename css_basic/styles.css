@@ -1,6 +1,9 @@
 body{
   display: flex;
   flex-direction: column;
+   background-color: #fafafa; /* Subtle background color */
+  font-family: 'Roboto', sans-serif; /* Use a modern font */
+  color: #444;               /* Standard text color */
 }
 main{
   display: flex;
@@ -10,6 +13,12 @@ main{
 article{
   flex: 2;
   overflow-y: auto;
+  background-color: #f0f8ff; /* Light background color */
+  color: #333;              /* Dark text for contrast */
+  border-radius: 8px;       /* Add rounded corners */
+  padding: 2rem;            /* Add spacing inside */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  font-family: 'Arial', sans-serif; /* Change font */
 }
 aside{
    flex: 1;
